@@ -14,6 +14,9 @@ typedef enum {
     BostonRedSox,
     TorontoBlueJays,
     LSU,
+    PittsburghPirates,
+    LosAngelesDodgers,
+    NYYankees,
 } PaintCodeViewType;
 
 @interface PaintCodeView : UIView

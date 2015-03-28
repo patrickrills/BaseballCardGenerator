@@ -56,6 +56,18 @@
             paintCodeName = @"LSU";
             break;
             
+        case PittsburghPirates:
+            paintCodeName = @"PittsburghPirates";
+            break;
+        
+        case NYYankees:
+            paintCodeName = @"NYYankees";
+            break;
+            
+        case LosAngelesDodgers:
+            paintCodeName = @"LosAngelesDodgers";
+            break;
+            
         default:
             paintCodeName = @"";
             break;

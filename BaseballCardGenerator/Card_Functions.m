@@ -81,6 +81,18 @@
     {
         pct = LSU;
     }
+    else if ([teamId isEqualToString:@"PIT"])
+    {
+        pct = PittsburghPirates;
+    }
+    else if ([teamId isEqualToString:@"NYY"])
+    {
+        pct = NYYankees;
+    }
+    else if ([teamId isEqualToString:@"LAD"])
+    {
+        pct = LosAngelesDodgers;
+    }
     
     return [[PaintCodeView alloc] initWithType:pct andFrame:frame];
 }

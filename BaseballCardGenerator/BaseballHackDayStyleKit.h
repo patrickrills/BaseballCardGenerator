@@ -20,5 +20,8 @@
 + (void)drawBostonRedSoxWithFrame: (CGRect)frame;
 + (void)drawTorontoBlueJaysWithFrame: (CGRect)frame;
 + (void)drawLSUWithFrame: (CGRect)frame;
++ (void)drawPittsburghPiratesWithFrame: (CGRect)frame;
++ (void)drawLosAngelesDodgersWithFrame: (CGRect)frame;
++ (void)drawNYYankeesWithFrame: (CGRect)frame;
 
 @end

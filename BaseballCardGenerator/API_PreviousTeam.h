@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSString *team;
 @property (nonatomic, strong) NSString *tenure;
-@property (nonatomic, strong) NSString *teamid;
+@property (nonatomic, strong) NSString *team_id;
+@property (nonatomic, strong) NSString *image;
 
 @end
