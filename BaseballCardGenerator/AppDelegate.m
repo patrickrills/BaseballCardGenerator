@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UI_Functions.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.window.backgroundColor = [UIColor blackColor];
+    [UI_Functions initializeUserInterface:self];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

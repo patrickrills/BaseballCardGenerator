@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IIViewDeckController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) IIViewDeckController *deck;
+@property (nonatomic, strong) UIView *loadingPanel;
 
 @end
 

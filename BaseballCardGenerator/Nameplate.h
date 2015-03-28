@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Nameplate.h
 //  BaseballCardGenerator
 //
 //  Created by Patrick Rills on 3/28/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Nameplate : UIView
 
+- (id) initWithFrame:(CGRect)frame andName: (NSString *) name andPosition: (NSString *) position;
 
 @end
-
