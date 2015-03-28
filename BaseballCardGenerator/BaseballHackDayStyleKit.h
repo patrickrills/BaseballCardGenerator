@@ -16,5 +16,7 @@
 
 // Drawing Methods
 + (void)drawCardCornerWithFrame: (CGRect)frame;
++ (void)drawTexasRangersWithFrame: (CGRect)frame;
++ (void)drawBostonRedSoxWithFrame: (CGRect)frame;
 
 @end

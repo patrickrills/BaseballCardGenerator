@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "API_Player.h"
 
 @interface PlayerCard : NSObject
 
@@ -17,5 +18,7 @@
 @property (nonatomic, strong) NSString *positionLong;
 
 @property (nonatomic, strong) NSArray *teamHistory;
+
+- (id) initFromAPI: (API_Player *) apiPlayer;
 
 @end

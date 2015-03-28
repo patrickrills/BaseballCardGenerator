@@ -12,6 +12,19 @@
 		090571901AC6FE080049B293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0905718F1AC6FE080049B293 /* Images.xcassets */; };
 		090571931AC6FE080049B293 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090571911AC6FE080049B293 /* LaunchScreen.xib */; };
 		0905719F1AC6FE080049B293 /* BaseballCardGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905719E1AC6FE080049B293 /* BaseballCardGeneratorTests.m */; };
+		09203F501AC73FAB00D033A6 /* BaseballHackDayStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F4E1AC73FAB00D033A6 /* BaseballHackDayStyleKit.m */; };
+		09203F531AC73FD100D033A6 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F511AC73FD100D033A6 /* UIImage+animatedGIF.m */; };
+		09203F591AC73FF100D033A6 /* PlayerTeamHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F551AC73FF100D033A6 /* PlayerTeamHistory.m */; };
+		09203F5A1AC73FF100D033A6 /* PlayerCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F571AC73FF100D033A6 /* PlayerCard.m */; };
+		09203F601AC7400500D033A6 /* JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F5C1AC7400500D033A6 /* JSONObject.m */; };
+		09203F611AC7400500D033A6 /* JSONDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F5E1AC7400500D033A6 /* JSONDataParser.m */; };
+		09203F671AC7401500D033A6 /* APIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F631AC7401500D033A6 /* APIRequest.m */; };
+		09203F681AC7401500D033A6 /* API_Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F651AC7401500D033A6 /* API_Player.m */; };
+		09203F6B1AC7402000D033A6 /* Card_Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F691AC7402000D033A6 /* Card_Functions.m */; };
+		09203F751AC7404000D033A6 /* Nameplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F6D1AC7404000D033A6 /* Nameplate.m */; };
+		09203F761AC7404000D033A6 /* CardSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F6F1AC7404000D033A6 /* CardSlide.m */; };
+		09203F771AC7404000D033A6 /* CardFront.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F711AC7404000D033A6 /* CardFront.m */; };
+		09203F781AC7404000D033A6 /* CardBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F731AC7404000D033A6 /* CardBack.m */; };
 		094AC1D81AC6FF6B00B5A85B /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1D31AC6FF6B00B5A85B /* IISideController.m */; };
 		094AC1D91AC6FF6B00B5A85B /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1D51AC6FF6B00B5A85B /* IIViewDeckController.m */; };
 		094AC1DA1AC6FF6B00B5A85B /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1D71AC6FF6B00B5A85B /* IIWrapController.m */; };
@@ -49,6 +62,32 @@
 		090571981AC6FE080049B293 /* BaseballCardGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseballCardGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0905719D1AC6FE080049B293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0905719E1AC6FE080049B293 /* BaseballCardGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseballCardGeneratorTests.m; sourceTree = "<group>"; };
+		09203F4E1AC73FAB00D033A6 /* BaseballHackDayStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseballHackDayStyleKit.m; sourceTree = "<group>"; };
+		09203F4F1AC73FAB00D033A6 /* BaseballHackDayStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseballHackDayStyleKit.h; sourceTree = "<group>"; };
+		09203F511AC73FD100D033A6 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		09203F521AC73FD100D033A6 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		09203F551AC73FF100D033A6 /* PlayerTeamHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTeamHistory.m; sourceTree = "<group>"; };
+		09203F561AC73FF100D033A6 /* PlayerTeamHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTeamHistory.h; sourceTree = "<group>"; };
+		09203F571AC73FF100D033A6 /* PlayerCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCard.m; sourceTree = "<group>"; };
+		09203F581AC73FF100D033A6 /* PlayerCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCard.h; sourceTree = "<group>"; };
+		09203F5C1AC7400500D033A6 /* JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONObject.m; sourceTree = "<group>"; };
+		09203F5D1AC7400500D033A6 /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
+		09203F5E1AC7400500D033A6 /* JSONDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDataParser.m; sourceTree = "<group>"; };
+		09203F5F1AC7400500D033A6 /* JSONDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDataParser.h; sourceTree = "<group>"; };
+		09203F631AC7401500D033A6 /* APIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRequest.m; sourceTree = "<group>"; };
+		09203F641AC7401500D033A6 /* APIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequest.h; sourceTree = "<group>"; };
+		09203F651AC7401500D033A6 /* API_Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API_Player.m; sourceTree = "<group>"; };
+		09203F661AC7401500D033A6 /* API_Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API_Player.h; sourceTree = "<group>"; };
+		09203F691AC7402000D033A6 /* Card_Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card_Functions.m; sourceTree = "<group>"; };
+		09203F6A1AC7402000D033A6 /* Card_Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card_Functions.h; sourceTree = "<group>"; };
+		09203F6D1AC7404000D033A6 /* Nameplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nameplate.m; sourceTree = "<group>"; };
+		09203F6E1AC7404000D033A6 /* Nameplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nameplate.h; sourceTree = "<group>"; };
+		09203F6F1AC7404000D033A6 /* CardSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSlide.m; sourceTree = "<group>"; };
+		09203F701AC7404000D033A6 /* CardSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSlide.h; sourceTree = "<group>"; };
+		09203F711AC7404000D033A6 /* CardFront.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardFront.m; sourceTree = "<group>"; };
+		09203F721AC7404000D033A6 /* CardFront.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardFront.h; sourceTree = "<group>"; };
+		09203F731AC7404000D033A6 /* CardBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardBack.m; sourceTree = "<group>"; };
+		09203F741AC7404000D033A6 /* CardBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardBack.h; sourceTree = "<group>"; };
 		094AC1D21AC6FF6B00B5A85B /* IISideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IISideController.h; sourceTree = "<group>"; };
 		094AC1D31AC6FF6B00B5A85B /* IISideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IISideController.m; sourceTree = "<group>"; };
 		094AC1D41AC6FF6B00B5A85B /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
@@ -117,6 +156,7 @@
 		090571811AC6FE080049B293 /* BaseballCardGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				09203F541AC73FE100D033A6 /* Model */,
 				094AC1CE1AC6FF1900B5A85B /* Services */,
 				094AC1CF1AC6FF2000B5A85B /* UI */,
 				090571861AC6FE080049B293 /* AppDelegate.h */,
@@ -154,14 +194,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		09203F541AC73FE100D033A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09203F621AC7400800D033A6 /* API */,
+				09203F551AC73FF100D033A6 /* PlayerTeamHistory.m */,
+				09203F561AC73FF100D033A6 /* PlayerTeamHistory.h */,
+				09203F571AC73FF100D033A6 /* PlayerCard.m */,
+				09203F581AC73FF100D033A6 /* PlayerCard.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		09203F5B1AC73FF600D033A6 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				09203F5C1AC7400500D033A6 /* JSONObject.m */,
+				09203F5D1AC7400500D033A6 /* JSONObject.h */,
+				09203F5E1AC7400500D033A6 /* JSONDataParser.m */,
+				09203F5F1AC7400500D033A6 /* JSONDataParser.h */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		09203F621AC7400800D033A6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				09203F631AC7401500D033A6 /* APIRequest.m */,
+				09203F641AC7401500D033A6 /* APIRequest.h */,
+				09203F651AC7401500D033A6 /* API_Player.m */,
+				09203F661AC7401500D033A6 /* API_Player.h */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		09203F6C1AC7402D00D033A6 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				09203F6D1AC7404000D033A6 /* Nameplate.m */,
+				09203F6E1AC7404000D033A6 /* Nameplate.h */,
+				09203F6F1AC7404000D033A6 /* CardSlide.m */,
+				09203F701AC7404000D033A6 /* CardSlide.h */,
+				09203F711AC7404000D033A6 /* CardFront.m */,
+				09203F721AC7404000D033A6 /* CardFront.h */,
+				09203F731AC7404000D033A6 /* CardBack.m */,
+				09203F741AC7404000D033A6 /* CardBack.h */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
 		094AC1CE1AC6FF1900B5A85B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				09203F5B1AC73FF600D033A6 /* JSON */,
 				094AC1E41AC6FFB600B5A85B /* PaintCode */,
 				094AC1DB1AC6FF8000B5A85B /* UI_Functions.h */,
 				094AC1DC1AC6FF8000B5A85B /* UI_Functions.m */,
 				094AC1DD1AC6FF8000B5A85B /* Utility_Functions.h */,
 				094AC1DE1AC6FF8000B5A85B /* Utility_Functions.m */,
+				09203F691AC7402000D033A6 /* Card_Functions.m */,
+				09203F6A1AC7402000D033A6 /* Card_Functions.h */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -169,6 +261,7 @@
 		094AC1CF1AC6FF2000B5A85B /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				09203F6C1AC7402D00D033A6 /* Controls */,
 				094AC1D11AC6FF3200B5A85B /* ThirdParty */,
 				094AC1D01AC6FF2900B5A85B /* Base */,
 				094AC1FD1AC7024E00B5A85B /* MainMenuViewController.h */,
@@ -193,6 +286,8 @@
 		094AC1D11AC6FF3200B5A85B /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				09203F511AC73FD100D033A6 /* UIImage+animatedGIF.m */,
+				09203F521AC73FD100D033A6 /* UIImage+animatedGIF.h */,
 				094AC1D21AC6FF6B00B5A85B /* IISideController.h */,
 				094AC1D31AC6FF6B00B5A85B /* IISideController.m */,
 				094AC1D41AC6FF6B00B5A85B /* IIViewDeckController.h */,
@@ -206,6 +301,8 @@
 		094AC1E41AC6FFB600B5A85B /* PaintCode */ = {
 			isa = PBXGroup;
 			children = (
+				09203F4E1AC73FAB00D033A6 /* BaseballHackDayStyleKit.m */,
+				09203F4F1AC73FAB00D033A6 /* BaseballHackDayStyleKit.h */,
 				094AC1E51AC6FFC800B5A85B /* PaintCodeBarButtonItem.h */,
 				094AC1E61AC6FFC800B5A85B /* PaintCodeBarButtonItem.m */,
 				094AC1E71AC6FFC800B5A85B /* PaintCodeButton.h */,
@@ -320,17 +417,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				094AC1F21AC6FFC800B5A85B /* PaintCodeView.m in Sources */,
+				09203F771AC7404000D033A6 /* CardFront.m in Sources */,
+				09203F5A1AC73FF100D033A6 /* PlayerCard.m in Sources */,
 				094AC1E01AC6FF8000B5A85B /* Utility_Functions.m in Sources */,
+				09203F781AC7404000D033A6 /* CardBack.m in Sources */,
 				094AC1E31AC6FF9D00B5A85B /* BaseViewController.m in Sources */,
 				090571881AC6FE080049B293 /* AppDelegate.m in Sources */,
+				09203F761AC7404000D033A6 /* CardSlide.m in Sources */,
 				094AC1DA1AC6FF6B00B5A85B /* IIWrapController.m in Sources */,
+				09203F681AC7401500D033A6 /* API_Player.m in Sources */,
 				094AC2021AC7026A00B5A85B /* CardViewController.m in Sources */,
 				094AC1D91AC6FF6B00B5A85B /* IIViewDeckController.m in Sources */,
 				094AC1FF1AC7024E00B5A85B /* MainMenuViewController.m in Sources */,
+				09203F751AC7404000D033A6 /* Nameplate.m in Sources */,
+				09203F501AC73FAB00D033A6 /* BaseballHackDayStyleKit.m in Sources */,
 				094AC1EE1AC6FFC800B5A85B /* PaintCodeBarButtonItem.m in Sources */,
+				09203F611AC7400500D033A6 /* JSONDataParser.m in Sources */,
+				09203F6B1AC7402000D033A6 /* Card_Functions.m in Sources */,
+				09203F531AC73FD100D033A6 /* UIImage+animatedGIF.m in Sources */,
+				09203F601AC7400500D033A6 /* JSONObject.m in Sources */,
 				094AC1DF1AC6FF8000B5A85B /* UI_Functions.m in Sources */,
+				09203F591AC73FF100D033A6 /* PlayerTeamHistory.m in Sources */,
 				094AC1F01AC6FFC800B5A85B /* PaintCodeMenuCell.m in Sources */,
 				094AC1EF1AC6FFC800B5A85B /* PaintCodeButton.m in Sources */,
+				09203F671AC7401500D033A6 /* APIRequest.m in Sources */,
 				094AC1F91AC7003500B5A85B /* ModalNavigationController.m in Sources */,
 				090571851AC6FE080049B293 /* main.m in Sources */,
 				094AC1D81AC6FF6B00B5A85B /* IISideController.m in Sources */,

@@ -28,7 +28,7 @@
     SEL s = NSSelectorFromString([self selectorForType]);
     IMP imp = [[BaseballHackDayStyleKit class] methodForSelector:s];
     void (*func)(id, SEL, CGRect) = (void *)imp;
-    func([BaseballHackDayStyleKit class], s, self.frame);
+    func([BaseballHackDayStyleKit class], s, CGRectMake(0, 0, self.frame.size.width, self.frame.size.height));
 }
 
 - (NSString *) selectorForType
@@ -38,6 +38,14 @@
     switch (self.type) {
         case CardCorner:
             paintCodeName = @"CardCorner";
+            break;
+            
+        case BostonRedSox:
+            paintCodeName = @"BostonRedSox";
+            break;
+            
+        case TexasRangers:
+            paintCodeName = @"TexasRangers";
             break;
             
         default:

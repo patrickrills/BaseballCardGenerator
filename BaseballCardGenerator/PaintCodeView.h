@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 typedef enum {
-    CardCorner
+    CardCorner,
+    TexasRangers,
+    BostonRedSox,
 } PaintCodeViewType;
 
 @interface PaintCodeView : UIView

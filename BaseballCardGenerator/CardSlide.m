@@ -8,6 +8,8 @@
 
 #import "CardSlide.h"
 #import "UIImage+animatedGIF.h"
+#import "PaintCodeView.h"
+#import "Card_Functions.h"
 
 #define SCROLL_TAG   9999
 
@@ -58,13 +60,9 @@
             [s addSubview:photo];
         }
         
-        UIImageView *teamLogo = [[UIImageView alloc] initWithFrame:CGRectMake(20, 20, 100, 100)];
-        teamLogo.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:self.team.teamlogoURL]]];
+        PaintCodeView *teamLogo = [Card_Functions teamLogoForTeamId:self.team.teamId withFrame:CGRectMake(20, 20, 100, 100)];
         teamLogo.backgroundColor = [UIColor whiteColor];
-        teamLogo.contentMode = UIViewContentModeScaleAspectFit;
         teamLogo.layer.cornerRadius = 50.0;
-        teamLogo.layer.borderWidth = 4.0f;
-        teamLogo.layer.borderColor = [UIColor whiteColor].CGColor;
         teamLogo.clipsToBounds = YES;
         [self addSubview:teamLogo];
         

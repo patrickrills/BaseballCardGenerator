@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface PlayerTeamHistory : NSObject
 
 @property (nonatomic, strong) NSArray *photoURLs;
 @property (nonatomic, strong) NSString *teamName;
-@property (nonatomic, strong) NSString *teamlogoURL;
+@property (nonatomic, strong) NSString *teamId;
 @property NSNumber *startYear;
 @property NSNumber *endYear;
 
