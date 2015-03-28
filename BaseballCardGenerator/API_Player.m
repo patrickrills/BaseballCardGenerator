@@ -7,6 +7,7 @@
 //
 
 #import "API_Player.h"
+#import "API_PreviousTeam.h"
 
 @implementation API_Player
 
@@ -15,7 +16,7 @@
     self = [super initWithJSON:dict];
     
     if (self) {
-        //self.minutes = [self convertChildArrayToClass:[Minute class] withValues:self.minutes];
+        self.previous_teams = [self convertChildArrayToClass:[API_PreviousTeam class] withValues:self.previous_teams];
     }
     
     return self;

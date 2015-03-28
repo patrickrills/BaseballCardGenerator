@@ -2324,4 +2324,22 @@
     }
 }
 
++ (void)drawLSUWithFrame: (CGRect)frame
+{
+    //// General Declarations
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    
+    //// Image Declarations
+    UIImage* imgiphonelsuletters = [UIImage imageNamed: @"imgiphonelsuletters.png"];
+    
+    //// Rectangle Drawing
+    CGRect rectangleRect = CGRectMake(CGRectGetMinX(frame) + floor(CGRectGetWidth(frame) * 0.00000 + 0.5), CGRectGetMinY(frame) + floor(CGRectGetHeight(frame) * 0.00000 + 0.5), floor(CGRectGetWidth(frame) * 1.00000 + 0.5) - floor(CGRectGetWidth(frame) * 0.00000 + 0.5), floor(CGRectGetHeight(frame) * 1.00000 + 0.5) - floor(CGRectGetHeight(frame) * 0.00000 + 0.5));
+    UIBezierPath* rectanglePath = [UIBezierPath bezierPathWithRect: rectangleRect];
+    CGContextSaveGState(context);
+    [rectanglePath addClip];
+    [imgiphonelsuletters drawInRect: CGRectMake(floor(CGRectGetMinX(rectangleRect) + 0.5), floor(CGRectGetMinY(rectangleRect) + 0.5), imgiphonelsuletters.size.width, imgiphonelsuletters.size.height)];
+    CGContextRestoreGState(context);
+}
+
 @end

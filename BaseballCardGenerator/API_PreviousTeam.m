@@ -1,13 +1,13 @@
 //
-//  PlayerTeamHistory.m
+//  PreviousTeam.m
 //  BaseballCardGenerator
 //
 //  Created by Patrick Rills on 3/28/15.
 //  Copyright (c) 2015 BaseballHackDay. All rights reserved.
 //
 
-#import "PlayerTeamHistory.h"
+#import "API_PreviousTeam.h"
 
-@implementation PlayerTeamHistory
+@implementation API_PreviousTeam
 
 @end

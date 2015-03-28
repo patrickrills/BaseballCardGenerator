@@ -51,6 +51,10 @@
         case TorontoBlueJays:
             paintCodeName = @"TorontoBlueJays";
             break;
+        
+        case LSU:
+            paintCodeName = @"LSU";
+            break;
             
         default:
             paintCodeName = @"";

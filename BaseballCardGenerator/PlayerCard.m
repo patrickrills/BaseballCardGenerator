@@ -24,6 +24,7 @@
         currentTeam.photoURLs = [NSArray arrayWithObjects:apiPlayer.mlb_action_shot, apiPlayer.image_url, nil];
         currentTeam.teamName = [NSString stringWithFormat:@"%@ %@", [apiPlayer.team objectForKey:@"market"], [apiPlayer.team objectForKey:@"name"]];
         currentTeam.teamId = [apiPlayer.team objectForKey:@"abbr"];
+        currentTeam.tenure = @"2015";
         
         self.teamHistory = [NSArray arrayWithObjects:currentTeam, nil];
     }

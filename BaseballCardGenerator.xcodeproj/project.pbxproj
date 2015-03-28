@@ -27,6 +27,8 @@
 		09203F781AC7404000D033A6 /* CardBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F731AC7404000D033A6 /* CardBack.m */; };
 		09203F7B1AC7418900D033A6 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F7A1AC7418900D033A6 /* BaseTableViewController.m */; };
 		09203F7E1AC741CA00D033A6 /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F7D1AC741CA00D033A6 /* PlayerListViewController.m */; };
+		09203F811AC746E300D033A6 /* API_PreviousTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F801AC746E300D033A6 /* API_PreviousTeam.m */; };
+		09203F831AC74B1900D033A6 /* imgiphonelsuletters.png in Resources */ = {isa = PBXBuildFile; fileRef = 09203F821AC74B1900D033A6 /* imgiphonelsuletters.png */; };
 		094AC1D81AC6FF6B00B5A85B /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1D31AC6FF6B00B5A85B /* IISideController.m */; };
 		094AC1D91AC6FF6B00B5A85B /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1D51AC6FF6B00B5A85B /* IIViewDeckController.m */; };
 		094AC1DA1AC6FF6B00B5A85B /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1D71AC6FF6B00B5A85B /* IIWrapController.m */; };
@@ -94,6 +96,9 @@
 		09203F7A1AC7418900D033A6 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		09203F7C1AC741CA00D033A6 /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
 		09203F7D1AC741CA00D033A6 /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
+		09203F7F1AC746E300D033A6 /* API_PreviousTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API_PreviousTeam.h; sourceTree = "<group>"; };
+		09203F801AC746E300D033A6 /* API_PreviousTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API_PreviousTeam.m; sourceTree = "<group>"; };
+		09203F821AC74B1900D033A6 /* imgiphonelsuletters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgiphonelsuletters.png; sourceTree = "<group>"; };
 		094AC1D21AC6FF6B00B5A85B /* IISideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IISideController.h; sourceTree = "<group>"; };
 		094AC1D31AC6FF6B00B5A85B /* IISideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IISideController.m; sourceTree = "<group>"; };
 		094AC1D41AC6FF6B00B5A85B /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
@@ -177,6 +182,7 @@
 		090571821AC6FE080049B293 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09203F821AC74B1900D033A6 /* imgiphonelsuletters.png */,
 				090571831AC6FE080049B293 /* Info.plist */,
 				090571841AC6FE080049B293 /* main.m */,
 			);
@@ -230,6 +236,8 @@
 				09203F641AC7401500D033A6 /* APIRequest.h */,
 				09203F651AC7401500D033A6 /* API_Player.m */,
 				09203F661AC7401500D033A6 /* API_Player.h */,
+				09203F7F1AC746E300D033A6 /* API_PreviousTeam.h */,
+				09203F801AC746E300D033A6 /* API_PreviousTeam.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -406,6 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09203F831AC74B1900D033A6 /* imgiphonelsuletters.png in Resources */,
 				090571931AC6FE080049B293 /* LaunchScreen.xib in Resources */,
 				090571901AC6FE080049B293 /* Images.xcassets in Resources */,
 				094AC1F11AC6FFC800B5A85B /* PaintCodeMenuCell.xib in Resources */,
@@ -434,6 +443,7 @@
 				094AC1E31AC6FF9D00B5A85B /* BaseViewController.m in Sources */,
 				090571881AC6FE080049B293 /* AppDelegate.m in Sources */,
 				09203F761AC7404000D033A6 /* CardSlide.m in Sources */,
+				09203F811AC746E300D033A6 /* API_PreviousTeam.m in Sources */,
 				094AC1DA1AC6FF6B00B5A85B /* IIWrapController.m in Sources */,
 				09203F681AC7401500D033A6 /* API_Player.m in Sources */,
 				094AC2021AC7026A00B5A85B /* CardViewController.m in Sources */,

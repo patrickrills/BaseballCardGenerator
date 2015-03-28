@@ -70,7 +70,7 @@
         year.textAlignment = NSTextAlignmentCenter;
         year.textColor = [UIColor whiteColor];
         year.shadowColor = [UIColor blackColor];
-        year.text = self.team.displayYears;
+        year.text = self.team.tenure;
         [self addSubview:year];
     }
 }

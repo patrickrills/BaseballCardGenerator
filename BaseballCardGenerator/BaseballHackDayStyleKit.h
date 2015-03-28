@@ -19,5 +19,6 @@
 + (void)drawTexasRangersWithFrame: (CGRect)frame;
 + (void)drawBostonRedSoxWithFrame: (CGRect)frame;
 + (void)drawTorontoBlueJaysWithFrame: (CGRect)frame;
++ (void)drawLSUWithFrame: (CGRect)frame;
 
 @end

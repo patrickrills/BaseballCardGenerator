@@ -14,9 +14,6 @@
 @property (nonatomic, strong) NSArray *photoURLs;
 @property (nonatomic, strong) NSString *teamName;
 @property (nonatomic, strong) NSString *teamId;
-@property NSNumber *startYear;
-@property NSNumber *endYear;
-
-- (NSString *) displayYears;
+@property (nonatomic, strong) NSString *tenure;
 
 @end

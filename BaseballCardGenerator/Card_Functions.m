@@ -18,20 +18,23 @@
     p.name = @"Anthony Ranaudo";
     p.positionShort = @"RHP";
     p.positionLong = @"Right handed pitcher";
-    p.backURL = @"http://www.mlb.com";
+    p.backURL = @"http://en.wikipedia.org/wiki/Anthony_Ranaudo";
     PlayerTeamHistory *h1 = [[PlayerTeamHistory alloc] init];
     h1.photoURLs = [NSArray arrayWithObjects:@"http://img.bleacherreport.net/img/images/photos/003/315/438/hi-res-6c82fbd75fc70d02d83267a13e4e4860_crop_exact.jpg?w=1500&h=1500&q=85", @"http://www.star-telegram.com/sports/mlb/texas-rangers/9990l3/picture16541792/ALTERNATES/FREE_960/ranges.JPG", @"http://assets.sbnation.com/assets/1512365/russell.gif", nil];
     h1.teamId = @"TEX";
-    h1.startYear = [NSNumber numberWithInt:2015];
-    h1.endYear = nil;
+    h1.tenure = @"2015-";
     
     PlayerTeamHistory *h2 = [[PlayerTeamHistory alloc] init];
     h2.photoURLs = [NSArray arrayWithObject:@"http://www.bostonherald.com/sites/default/files/media/2014/09/24/092414sox4.jpg"];
     h2.teamId = @"BOS";
-    h2.startYear = [NSNumber numberWithInt:2014];
-    h2.endYear = [NSNumber numberWithInt:2014];
+    h2.tenure = @"2014";
     
-    p.teamHistory = [NSArray arrayWithObjects:h1, h2, nil];
+    PlayerTeamHistory *h3 = [[PlayerTeamHistory alloc] init];
+    h3.photoURLs = [NSArray arrayWithObject:@"http://bloximages.chicago2.vip.townnews.com/host.madison.com/content/tncms/assets/v3/editorial/b/ca/bcab1ed8-7211-11df-83ab-001cc4c03286/bcab1ed8-7211-11df-83ab-001cc4c03286.image.jpg"];
+    h3.teamId = @"LSU";
+    h3.tenure = @"2008-2010";
+    
+    p.teamHistory = [NSArray arrayWithObjects:h1, h2, h3, nil];
     
     return p;
 }
@@ -73,6 +76,10 @@
     else if ([teamId isEqualToString:@"TOR"])
     {
         pct = TorontoBlueJays;
+    }
+    else if ([teamId isEqualToString:@"LSU"])
+    {
+        pct = LSU;
     }
     
     return [[PaintCodeView alloc] initWithType:pct andFrame:frame];
