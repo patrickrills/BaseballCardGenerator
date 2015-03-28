@@ -19,6 +19,7 @@
         self.name = apiPlayer.full_name;
         self.positionLong = apiPlayer.primary_position;
         self.headshotURL = apiPlayer.mlb_head_shot;
+        self.backURL = [NSString stringWithFormat:@"http://baseball-card.herokuapp.com/card/%@", apiPlayer.player_id];
         
         PlayerTeamHistory *currentTeam = [[PlayerTeamHistory alloc] init];
         currentTeam.photoURLs = [NSArray arrayWithObjects:apiPlayer.mlb_action_shot, apiPlayer.image_url, nil];

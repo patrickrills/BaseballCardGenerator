@@ -18,7 +18,7 @@
     if (self) {
         self.previous_teams = [self convertChildArrayToClass:[API_PreviousTeam class] withValues:self.previous_teams];
     }
-    
+
     return self;
 }
 

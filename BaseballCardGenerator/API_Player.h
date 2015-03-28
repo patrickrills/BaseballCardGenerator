@@ -18,5 +18,6 @@
 @property (nonatomic, strong) NSString *image_url;
 @property (nonatomic, strong) NSDictionary *team;
 @property (nonatomic, strong) NSMutableArray *previous_teams;
+@property (nonatomic, strong) NSString *player_id;
 
 @end
