@@ -10,7 +10,7 @@
 
 @interface PlayerTeamHistory : NSObject
 
-@property (nonatomic, strong) NSString *photoURL;
+@property (nonatomic, strong) NSArray *photoURLs;
 @property (nonatomic, strong) NSString *teamName;
 @property (nonatomic, strong) NSString *teamlogoURL;
 @property NSNumber *startYear;
