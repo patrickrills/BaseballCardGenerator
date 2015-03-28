@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090571851AC6FE080049B293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090571841AC6FE080049B293 /* main.m */; };
+		090571881AC6FE080049B293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090571871AC6FE080049B293 /* AppDelegate.m */; };
+		0905718B1AC6FE080049B293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905718A1AC6FE080049B293 /* ViewController.m */; };
+		0905718E1AC6FE080049B293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0905718C1AC6FE080049B293 /* Main.storyboard */; };
+		090571901AC6FE080049B293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0905718F1AC6FE080049B293 /* Images.xcassets */; };
+		090571931AC6FE080049B293 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090571911AC6FE080049B293 /* LaunchScreen.xib */; };
+		0905719F1AC6FE080049B293 /* BaseballCardGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905719E1AC6FE080049B293 /* BaseballCardGeneratorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		090571991AC6FE080049B293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090571771AC6FE080049B293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0905717E1AC6FE080049B293;
+			remoteInfo = BaseballCardGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0905717F1AC6FE080049B293 /* BaseballCardGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseballCardGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090571831AC6FE080049B293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090571841AC6FE080049B293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		090571861AC6FE080049B293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		090571871AC6FE080049B293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		090571891AC6FE080049B293 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0905718A1AC6FE080049B293 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0905718D1AC6FE080049B293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0905718F1AC6FE080049B293 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		090571921AC6FE080049B293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		090571981AC6FE080049B293 /* BaseballCardGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseballCardGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0905719D1AC6FE080049B293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0905719E1AC6FE080049B293 /* BaseballCardGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseballCardGeneratorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0905717C1AC6FE080049B293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090571951AC6FE080049B293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090571761AC6FE080049B293 = {
+			isa = PBXGroup;
+			children = (
+				090571811AC6FE080049B293 /* BaseballCardGenerator */,
+				0905719B1AC6FE080049B293 /* BaseballCardGeneratorTests */,
+				090571801AC6FE080049B293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090571801AC6FE080049B293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0905717F1AC6FE080049B293 /* BaseballCardGenerator.app */,
+				090571981AC6FE080049B293 /* BaseballCardGeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090571811AC6FE080049B293 /* BaseballCardGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				090571861AC6FE080049B293 /* AppDelegate.h */,
+				090571871AC6FE080049B293 /* AppDelegate.m */,
+				090571891AC6FE080049B293 /* ViewController.h */,
+				0905718A1AC6FE080049B293 /* ViewController.m */,
+				0905718C1AC6FE080049B293 /* Main.storyboard */,
+				0905718F1AC6FE080049B293 /* Images.xcassets */,
+				090571911AC6FE080049B293 /* LaunchScreen.xib */,
+				090571821AC6FE080049B293 /* Supporting Files */,
+			);
+			path = BaseballCardGenerator;
+			sourceTree = "<group>";
+		};
+		090571821AC6FE080049B293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				090571831AC6FE080049B293 /* Info.plist */,
+				090571841AC6FE080049B293 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0905719B1AC6FE080049B293 /* BaseballCardGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0905719E1AC6FE080049B293 /* BaseballCardGeneratorTests.m */,
+				0905719C1AC6FE080049B293 /* Supporting Files */,
+			);
+			path = BaseballCardGeneratorTests;
+			sourceTree = "<group>";
+		};
+		0905719C1AC6FE080049B293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0905719D1AC6FE080049B293 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0905717E1AC6FE080049B293 /* BaseballCardGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090571A21AC6FE080049B293 /* Build configuration list for PBXNativeTarget "BaseballCardGenerator" */;
+			buildPhases = (
+				0905717B1AC6FE080049B293 /* Sources */,
+				0905717C1AC6FE080049B293 /* Frameworks */,
+				0905717D1AC6FE080049B293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaseballCardGenerator;
+			productName = BaseballCardGenerator;
+			productReference = 0905717F1AC6FE080049B293 /* BaseballCardGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		090571971AC6FE080049B293 /* BaseballCardGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090571A51AC6FE080049B293 /* Build configuration list for PBXNativeTarget "BaseballCardGeneratorTests" */;
+			buildPhases = (
+				090571941AC6FE080049B293 /* Sources */,
+				090571951AC6FE080049B293 /* Frameworks */,
+				090571961AC6FE080049B293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0905719A1AC6FE080049B293 /* PBXTargetDependency */,
+			);
+			name = BaseballCardGeneratorTests;
+			productName = BaseballCardGeneratorTests;
+			productReference = 090571981AC6FE080049B293 /* BaseballCardGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090571771AC6FE080049B293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = BaseballHackDay;
+				TargetAttributes = {
+					0905717E1AC6FE080049B293 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					090571971AC6FE080049B293 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 0905717E1AC6FE080049B293;
+					};
+				};
+			};
+			buildConfigurationList = 0905717A1AC6FE080049B293 /* Build configuration list for PBXProject "BaseballCardGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 090571761AC6FE080049B293;
+			productRefGroup = 090571801AC6FE080049B293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0905717E1AC6FE080049B293 /* BaseballCardGenerator */,
+				090571971AC6FE080049B293 /* BaseballCardGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0905717D1AC6FE080049B293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0905718E1AC6FE080049B293 /* Main.storyboard in Resources */,
+				090571931AC6FE080049B293 /* LaunchScreen.xib in Resources */,
+				090571901AC6FE080049B293 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090571961AC6FE080049B293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0905717B1AC6FE080049B293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0905718B1AC6FE080049B293 /* ViewController.m in Sources */,
+				090571881AC6FE080049B293 /* AppDelegate.m in Sources */,
+				090571851AC6FE080049B293 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090571941AC6FE080049B293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0905719F1AC6FE080049B293 /* BaseballCardGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0905719A1AC6FE080049B293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0905717E1AC6FE080049B293 /* BaseballCardGenerator */;
+			targetProxy = 090571991AC6FE080049B293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0905718C1AC6FE080049B293 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0905718D1AC6FE080049B293 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		090571911AC6FE080049B293 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090571921AC6FE080049B293 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090571A01AC6FE080049B293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		090571A11AC6FE080049B293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090571A31AC6FE080049B293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaseballCardGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		090571A41AC6FE080049B293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaseballCardGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		090571A61AC6FE080049B293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BaseballCardGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseballCardGenerator.app/BaseballCardGenerator";
+			};
+			name = Debug;
+		};
+		090571A71AC6FE080049B293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BaseballCardGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseballCardGenerator.app/BaseballCardGenerator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0905717A1AC6FE080049B293 /* Build configuration list for PBXProject "BaseballCardGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090571A01AC6FE080049B293 /* Debug */,
+				090571A11AC6FE080049B293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090571A21AC6FE080049B293 /* Build configuration list for PBXNativeTarget "BaseballCardGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090571A31AC6FE080049B293 /* Debug */,
+				090571A41AC6FE080049B293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		090571A51AC6FE080049B293 /* Build configuration list for PBXNativeTarget "BaseballCardGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090571A61AC6FE080049B293 /* Debug */,
+				090571A71AC6FE080049B293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090571771AC6FE080049B293 /* Project object */;
+}
