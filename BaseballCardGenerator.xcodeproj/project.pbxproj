@@ -25,6 +25,8 @@
 		09203F761AC7404000D033A6 /* CardSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F6F1AC7404000D033A6 /* CardSlide.m */; };
 		09203F771AC7404000D033A6 /* CardFront.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F711AC7404000D033A6 /* CardFront.m */; };
 		09203F781AC7404000D033A6 /* CardBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F731AC7404000D033A6 /* CardBack.m */; };
+		09203F7B1AC7418900D033A6 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F7A1AC7418900D033A6 /* BaseTableViewController.m */; };
+		09203F7E1AC741CA00D033A6 /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09203F7D1AC741CA00D033A6 /* PlayerListViewController.m */; };
 		094AC1D81AC6FF6B00B5A85B /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1D31AC6FF6B00B5A85B /* IISideController.m */; };
 		094AC1D91AC6FF6B00B5A85B /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1D51AC6FF6B00B5A85B /* IIViewDeckController.m */; };
 		094AC1DA1AC6FF6B00B5A85B /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1D71AC6FF6B00B5A85B /* IIWrapController.m */; };
@@ -88,6 +90,10 @@
 		09203F721AC7404000D033A6 /* CardFront.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardFront.h; sourceTree = "<group>"; };
 		09203F731AC7404000D033A6 /* CardBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardBack.m; sourceTree = "<group>"; };
 		09203F741AC7404000D033A6 /* CardBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardBack.h; sourceTree = "<group>"; };
+		09203F791AC7418900D033A6 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		09203F7A1AC7418900D033A6 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		09203F7C1AC741CA00D033A6 /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
+		09203F7D1AC741CA00D033A6 /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
 		094AC1D21AC6FF6B00B5A85B /* IISideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IISideController.h; sourceTree = "<group>"; };
 		094AC1D31AC6FF6B00B5A85B /* IISideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IISideController.m; sourceTree = "<group>"; };
 		094AC1D41AC6FF6B00B5A85B /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
@@ -268,6 +274,8 @@
 				094AC1FE1AC7024E00B5A85B /* MainMenuViewController.m */,
 				094AC2001AC7026A00B5A85B /* CardViewController.h */,
 				094AC2011AC7026A00B5A85B /* CardViewController.m */,
+				09203F7C1AC741CA00D033A6 /* PlayerListViewController.h */,
+				09203F7D1AC741CA00D033A6 /* PlayerListViewController.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -279,6 +287,8 @@
 				094AC1F81AC7003500B5A85B /* ModalNavigationController.m */,
 				094AC1E11AC6FF9D00B5A85B /* BaseViewController.h */,
 				094AC1E21AC6FF9D00B5A85B /* BaseViewController.m */,
+				09203F791AC7418900D033A6 /* BaseTableViewController.h */,
+				09203F7A1AC7418900D033A6 /* BaseTableViewController.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -427,6 +437,7 @@
 				094AC1DA1AC6FF6B00B5A85B /* IIWrapController.m in Sources */,
 				09203F681AC7401500D033A6 /* API_Player.m in Sources */,
 				094AC2021AC7026A00B5A85B /* CardViewController.m in Sources */,
+				09203F7E1AC741CA00D033A6 /* PlayerListViewController.m in Sources */,
 				094AC1D91AC6FF6B00B5A85B /* IIViewDeckController.m in Sources */,
 				094AC1FF1AC7024E00B5A85B /* MainMenuViewController.m in Sources */,
 				09203F751AC7404000D033A6 /* Nameplate.m in Sources */,
@@ -436,6 +447,7 @@
 				09203F6B1AC7402000D033A6 /* Card_Functions.m in Sources */,
 				09203F531AC73FD100D033A6 /* UIImage+animatedGIF.m in Sources */,
 				09203F601AC7400500D033A6 /* JSONObject.m in Sources */,
+				09203F7B1AC7418900D033A6 /* BaseTableViewController.m in Sources */,
 				094AC1DF1AC6FF8000B5A85B /* UI_Functions.m in Sources */,
 				09203F591AC73FF100D033A6 /* PlayerTeamHistory.m in Sources */,
 				094AC1F01AC6FFC800B5A85B /* PaintCodeMenuCell.m in Sources */,

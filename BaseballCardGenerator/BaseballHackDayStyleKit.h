@@ -18,5 +18,6 @@
 + (void)drawCardCornerWithFrame: (CGRect)frame;
 + (void)drawTexasRangersWithFrame: (CGRect)frame;
 + (void)drawBostonRedSoxWithFrame: (CGRect)frame;
++ (void)drawTorontoBlueJaysWithFrame: (CGRect)frame;
 
 @end

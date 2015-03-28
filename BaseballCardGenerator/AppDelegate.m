@@ -25,10 +25,6 @@
     
     [self.window makeKeyAndVisible];
     
-    [Card_Functions getPlayerWithId:@"3da24e28-741c-4978-bdba-52de51975820" onComplete:^(PlayerCard *c) {
-        
-    }];
-    
     return YES;
 }
 

@@ -50,20 +50,12 @@
 {
     switch ([self screenType]) {
             
-        case About:
-            return @"About";
-            
-        case Summary:
-            return @"Summary";
-            
-        case Welcome:
-            return @"Welcome";
-            
-        case Stories:
-            return @"Stories";
+        case PlayerListScreen:
+            return @"Players";
             
         default:
-            return @"Unknown";
+            return nil;
+
     }
     
     return nil;

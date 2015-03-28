@@ -11,8 +11,8 @@
 #import "MainMenuViewController.h"
 #import "IIViewDeckController.h"
 #import "ModalNavigationController.h"
-//#import "BusinessLayer_Functions.h"
 #import "CardViewController.h"
+#import "PlayerListViewController.h"
 
 @implementation UI_Functions
 
@@ -83,7 +83,7 @@
 
 + (void) initializeUserInterface: (AppDelegate *) del
 {
-    CardViewController *h = [[CardViewController alloc] init];
+    PlayerListViewController *h = [[PlayerListViewController alloc] init];
     UINavigationController *n = [[UINavigationController alloc] initWithRootViewController:h];
     //[UI_Functions changeNavigationBar:n toTintColor:[Utility_Functions getPrimaryColor]];
     n.navigationBar.tintColor = [Utility_Functions getPrimaryColor];
@@ -184,10 +184,9 @@
     AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     
 	UIView *lp = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
-	lp.backgroundColor = [UIColor clearColor];
-	UIImageView *bg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loadingBG"]];
-	bg.frame = CGRectMake(0, 0, 150, 150);
-	[lp addSubview:bg];
+	lp.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.65];
+	lp.frame = CGRectMake(0, 0, 150, 150);
+    lp.layer.cornerRadius = 6.0;
 	
 	UIActivityIndicatorView *loading = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
 	[loading setCenter:CGPointMake(75, 75)];

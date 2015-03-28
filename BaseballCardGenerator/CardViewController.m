@@ -17,13 +17,13 @@
 
 @implementation CardViewController
 
-- (void) initializeUI
+- (ScreenType) screenType
 {
-    if (self.currentCard == nil)
-    {
-        self.currentCard = [Card_Functions getTestPlayerCard];
-    }
-    
+    return PlayerCardScreen;
+}
+
+- (void) initializeUI
+{    
     [UI_Functions toggleNavigationBarVisibility:NO];
     [UI_Functions toggleStatusBar:YES];
     

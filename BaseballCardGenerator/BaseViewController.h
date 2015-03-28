@@ -11,12 +11,9 @@
 @interface BaseViewController : UIViewController
 
 typedef enum {
-    About,
-    Summary,
-    Welcome,
-    Today,
-    Stories,
-    Unknown
+    PlayerListScreen,
+    PlayerCardScreen,
+    Unknown,
 } ScreenType;
 
 - (void) toggleLeftMenuManual;
