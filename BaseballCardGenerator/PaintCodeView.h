@@ -12,6 +12,7 @@ typedef enum {
     CardCorner,
     TexasRangers,
     BostonRedSox,
+    TorontoBlueJays,
 } PaintCodeViewType;
 
 @interface PaintCodeView : UIView

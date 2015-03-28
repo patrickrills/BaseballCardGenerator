@@ -60,7 +60,7 @@
 
 + (PaintCodeView *) teamLogoForTeamId: (NSString *) teamId withFrame:(CGRect)frame
 {
-    PaintCodeViewType pct;
+    PaintCodeViewType pct = BostonRedSox;
     
     if ([teamId isEqualToString:@"BOS"])
     {
@@ -69,6 +69,10 @@
     else if ([teamId isEqualToString:@"TEX"])
     {
         pct = TexasRangers;
+    }
+    else if ([teamId isEqualToString:@"TOR"])
+    {
+        pct = TorontoBlueJays;
     }
     
     return [[PaintCodeView alloc] initWithType:pct andFrame:frame];
