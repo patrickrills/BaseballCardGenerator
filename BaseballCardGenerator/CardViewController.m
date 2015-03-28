@@ -48,6 +48,21 @@
             Nameplate *n = [[Nameplate alloc] initWithFrame:CGRectMake(-1, self.view.frame.size.height - 90.0, self.view.frame.size.width + 2, 70.0) andName:self.currentCard.name andPosition:self.currentCard.positionLong];
             [self.view addSubview:n];
             self.name = n;
+            
+            if (self.currentCard.headshotURL != nil)
+            {
+                UIImageView *headshot = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 80, self.view.frame.size.height - 120, 60, 60)];
+                headshot.backgroundColor = [UIColor whiteColor];
+                headshot.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:self.currentCard.headshotURL]]];
+                headshot.contentMode = UIViewContentModeScaleAspectFit;
+                headshot.layer.cornerRadius = 30.0f;
+                headshot.layer.borderWidth = 2.0;
+                headshot.layer.borderColor = [UIColor blackColor].CGColor;
+                headshot.clipsToBounds = YES;
+                [self.view addSubview:headshot];
+                self.head = headshot;
+            }
+            
         }
     }
     
@@ -67,6 +82,7 @@
                     animations:^{ self.front.hidden = frontHidden; self.back.hidden = !frontHidden; }
                     completion:^(BOOL completed) {
                         self.name.hidden = self.front.hidden;
+                        self.head.hidden = self.front.hidden;
                     }];
     
     

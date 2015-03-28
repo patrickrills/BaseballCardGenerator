@@ -18,5 +18,6 @@
 @property (nonatomic, strong) CardFront *front;
 @property (nonatomic, strong) CardBack *back;
 @property (nonatomic, assign) Nameplate *name;
+@property (nonatomic, assign) UIImageView *head;
 
 @end
