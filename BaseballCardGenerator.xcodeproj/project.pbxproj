@@ -43,6 +43,7 @@
 		094AC1F91AC7003500B5A85B /* ModalNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1F81AC7003500B5A85B /* ModalNavigationController.m */; };
 		094AC1FF1AC7024E00B5A85B /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC1FE1AC7024E00B5A85B /* MainMenuViewController.m */; };
 		094AC2021AC7026A00B5A85B /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094AC2011AC7026A00B5A85B /* CardViewController.m */; };
+		09E9C9451AC863D200BFE1AD /* baseball.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = 09E9C9441AC863D200BFE1AD /* baseball.pcvd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		094AC1FE1AC7024E00B5A85B /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		094AC2001AC7026A00B5A85B /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
 		094AC2011AC7026A00B5A85B /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		09E9C9441AC863D200BFE1AD /* baseball.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = baseball.pcvd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		090571821AC6FE080049B293 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09E9C9441AC863D200BFE1AD /* baseball.pcvd */,
 				09203F821AC74B1900D033A6 /* imgiphonelsuletters.png */,
 				090571831AC6FE080049B293 /* Info.plist */,
 				090571841AC6FE080049B293 /* main.m */,
@@ -415,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09203F831AC74B1900D033A6 /* imgiphonelsuletters.png in Resources */,
+				09E9C9451AC863D200BFE1AD /* baseball.pcvd in Resources */,
 				090571931AC6FE080049B293 /* LaunchScreen.xib in Resources */,
 				090571901AC6FE080049B293 /* Images.xcassets in Resources */,
 				094AC1F11AC6FFC800B5A85B /* PaintCodeMenuCell.xib in Resources */,
